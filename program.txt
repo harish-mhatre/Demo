@@ -18,6 +18,7 @@ public class automate {
         c=a/b;
 
         System.out.println("Division is :"+c);
+       
 
 
     }
