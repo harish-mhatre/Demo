@@ -1,4 +1,6 @@
-public class program {
+import java.io;
+
+class program {
 
     public static void main(String args[])
     {
