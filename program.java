@@ -6,20 +6,20 @@ class program {
     {
 
         System.out.println("Test");
-        //int a=10,b=20,c;
-        //c=a+b;
+        int a=10,b=20,c;
+        c=a+b;
 
-        //System.out.println("addition is :"+c);
-         //c=a-b;
+        System.out.println("addition is :"+c);
+         c=a-b;
 
-        //System.out.println("Subtraction is :"+c);
-        //c=a*b;
+        System.out.println("Subtraction is :"+c);
+        c=a*b;
 
-        //System.out.println("Multiplication is :"+c);
+        System.out.println("Multiplication is :"+c);
 
-       //c=a/b;
+       c=a/b;
 
-        //System.out.println("Division is :"+c);
+        System.out.println("Division is :"+c);
        
 
 
