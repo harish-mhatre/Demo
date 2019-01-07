@@ -7,9 +7,12 @@ pipeline {
         sh 'javac program.java'
       }
     }
+    
     stage('Display') {
+      steps {
       echo 'Show'
       sh 'java program';
     }
-  }
+    }
+   }
 }
