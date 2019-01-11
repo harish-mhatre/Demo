@@ -17,6 +17,7 @@ pipeline {
     stage('Create .jar') {
       steps {
         sh 'jar cvf program.jar program.class'
+        sh 'ls'
       }
     }
   }
