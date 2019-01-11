@@ -20,5 +20,10 @@ pipeline {
         sh 'ls'
       }
     }
+    stage('Run jar file') {
+      steps {
+        sh 'java -jar program.jar'
+      }
+    }
   }
 }
