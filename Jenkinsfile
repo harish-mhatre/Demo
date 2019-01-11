@@ -16,7 +16,7 @@ pipeline {
     }
     stage('Create .jar') {
       steps {
-        sh 'jar cvmf program.jar manifest.mf  program.class'
+        sh 'jar -cvf jarfile-program.jar manifest-manifest.mf  Class-program.class'
         sh 'ls'
       }
     }
