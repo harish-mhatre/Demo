@@ -23,7 +23,7 @@ pipeline {
     stage('Create manifest file') {
       steps {
         sh 'jar cvfe program.jar program *.class'
-        sh 'program.jar'
+        sh 'java -jar program.jar'
       }
     }
   }
