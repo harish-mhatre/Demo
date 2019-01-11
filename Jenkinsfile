@@ -10,7 +10,7 @@ pipeline {
     stage('Compile') {
       steps {
         echo 'Show'
-        sh 'java program'
+        sh 'pwd'
       }
     }
   }
