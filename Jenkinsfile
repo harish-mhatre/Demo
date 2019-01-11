@@ -16,13 +16,14 @@ pipeline {
     }
     stage('Create .jar') {
       steps {
-        sh 'jar -cvf jarfile-program.jar manifest-manifest.mf  Class-program.class'
+        sh 'jar cvf program.jar program.class'
         sh 'ls'
       }
     }
-    stage('Run jar file') {
+    stage('Create manifest file') {
       steps {
-        sh 'java -jar program.jar'
+        sh 'jar cvfe program.jar program *.class'
+        sh 'program.jar'
       }
     }
   }
