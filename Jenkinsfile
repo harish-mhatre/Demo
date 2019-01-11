@@ -14,5 +14,10 @@ pipeline {
         sh 'ls /var/lib/jenkins/workspace/Demo_master-HYLYAJ624X6E45Q6XYZ6HKHYT4F7VQU7PACKNEAMFEBEFGW3W6RQ'
       }
     }
+    stage('Create .jar') {
+      steps {
+        sh 'jar cvmf program.jar program.class'
+      }
+    }
   }
 }
